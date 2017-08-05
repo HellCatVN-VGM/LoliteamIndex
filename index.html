@@ -1,0 +1,129 @@
+<html>
+
+<head>
+    <iframe src="http://www.nhaccuatui.com/mh/background/OqFCmqmDE5m3" width="0" height="0" frameborder="0" allowfullscreen></iframe>
+    <title>LoLi Team</title>
+    <meta charset="utf-8">
+    <meta name="Author" content="ShiinaEoPi & HellCat">
+    <meta name="copyright" content="LoLi Sec Team">
+    <meta name="description" content="Seized by EoPi">
+    <meta property="og:image" content="http://i.imgur.com/xcxThLF.jpg">
+    <meta property="og:title" content="LoLi Sec Team">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script language=Javascript1.1>
+        alert("*Welcome To Our Website - We Are LoLi Sec Team*");
+    </script>
+    <script language=javascript>
+        title_tmp1 = document.title
+        if (title_tmp1.indexOf(">>") != -1) {
+            title_tmp2 = title_tmp1.split(">>");
+            title_last = "*~*" + title_tmp2[1];
+            title_last = title_last + "*~*" + title_tmp2[2];
+        } else {
+
+            if (title_tmp1.indexOf("*~*") != -1) {
+                title_tmp2 = title_tmp1.split("*~*");
+                title_last = "*~*" + title_tmp2[1];
+                if (title_last == "*~*") {
+                    title_last = "*~*"
+                };
+                if (title_last == "*~*") {
+                    title_last = "*~*"
+                };
+            } else {
+                title_last = "LoLi Team"
+            }
+        }
+
+
+        title_new = "" + title_last + ""
+        step = 0
+
+        function flash_title() {
+            step++
+            if (step == 8) {
+                step = 1
+            }
+            if (step == 1) {
+                document.title = '|----♥' + title_new + '♥----|'
+            }
+            if (step == 2) {
+                document.title = '|---♥-' + title_new + '-♥---|'
+            }
+            if (step == 3) {
+                document.title = '|--♥--' + title_new + '--♥--|'
+            }
+            if (step == 4) {
+                document.title = '|-♥---' + title_new + '---♥-|'
+            }
+            if (step == 5) {
+                document.title = '|♥----' + title_new + '----♥|'
+            }
+            if (step == 6) {
+                document.title = '|-♥---' + title_new + '---♥-|'
+            }
+            if (step == 7) {
+                document.title = '|--♥--' + title_new + '--♥--|'
+            }
+            if (step == 8) {
+                document.title = '|---♥-' + title_new + '-♥---|'
+            }
+            if (step == 9) {
+                document.title = '|----♥' + title_new + '♥----|'
+            }
+            setTimeout("flash_title()", 180);
+        }
+        flash_title()
+    </script>
+    <link href="src/loli.ng-terminal.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet" type="text/css">
+    <link href="example/content/loli.css" rel="stylesheet" />
+</head>
+
+<body ng-app="ng-terminal-example">
+    <canvas style="position: absolute; z-index: -100;width: 110%" id="c">Sorry Browser Won't Support</canvas>
+    <section style="position: relative;" class="console-section">
+        <section class="container">
+            <section class="head">
+                <center>
+                    <font size="6" face="Righteous" style="background: url(&quot;src/chopnhay.gif&quot;) 
+						repeat scroll 0% 0% transparent; color:white;text-shadow: 0 0 0.2em #E984E5,0 0 0.2em #E984E5">We Are LoLi Security Team</font>
+                    <h1>LoLi Sec Team #Terminal-Emulator</h1>
+                    <h4>No Definition Of | " Can Not " | " Safety System " | " Key And CopyRight " |</h4>
+                </center>
+            </section>
+            <div class="console-options">
+                <label>
+                    <input type="radio" ng-model="theme" name="theme" value="vintage">Cổ điển</label>
+                <label>
+                    <input type="radio" ng-model="theme" name="theme" value="modern">Hiện đại</label>
+            </div>
+            <div ng-controller="console" ng-show="theme == 'vintage'">
+                <terminal terminal-class="vintage-terminal" terminal-config="vintage">
+                    <p class="click-me">Nhấp vào để bắt đầu dùng lệnh !</p>
+                </terminal>
+            </div>
+            <div ng-controller="console" ng-show="theme == 'modern'">
+                <terminal>
+                    <p class="click-me">Nhấp vào để bắt đầu dùng lệnh !</p>
+                </terminal>
+            </div>
+        </section>
+        <center>
+            <font size="4" face="Righteous" style="background: url(&quot;src/chopnhay.gif&quot;) 
+				repeat scroll 0% 0% transparent; color:black;text-shadow: 0 0 0.2em white,0 0 0.2em white">® 2017 LoLi.Team - Thank For Visit Website</font>
+        </center>
+    </section>
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.2/angular.min.js"></script>
+    <script src="src/loli.ng-terminal.js"></script>
+    <script src="example/loli.command.tools.js"></script>
+    <script src="example/loli.js"></script>
+    <script src="example/loli.command.implementations.js"></script>
+    <script src="example/loli.command.filesystem.js"></script>
+</body>
+
+</html>
