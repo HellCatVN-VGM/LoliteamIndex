@@ -20,8 +20,8 @@ body {
     padding: 10px;
     padding-bottom: 20px;
     background-color: #222;
-    border-top: 1px solid #696969;
-    box-shadow: inset 0 20px 20px -20px #696969;
+    border-top: 1px solid #F40E31;
+    box-shadow: inset 0 20px 20px -20px #FFFFFFF;
     min-height: 50%;
 }
 .unit-tests {
@@ -39,7 +39,7 @@ body {
     border-radius: 5px;
 }
 .unit-tests:hover {
-    color: #53FF42;
+    color: #EDFF43;
     background-color: #444;
 }
 .container {

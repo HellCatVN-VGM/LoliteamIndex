@@ -6,7 +6,7 @@
         var me = {};
         me.typeSoundUrl =null;
         me.startSoundUrl = null;
-        me.promptConfiguration = { end: ':~#', user: 'LoLi', separator: '@', path: 'EoPi' };
+        me.promptConfiguration = { end: ':~#', user: 'LoLi', separator: '@', path: 'ShiinaEoPi' };
                
         me.getTypeEffect = null;
         me.getStartEffect = null;
