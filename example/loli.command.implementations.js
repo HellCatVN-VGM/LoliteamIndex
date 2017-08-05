@@ -77,7 +77,7 @@
                         '# TV.Tuyên       # P.Cường      #',
                         '# Souji.T1       # Trung Vỵt    #',
                         '# ThảoPizza      # TQ.Minh      #',
-                        '# Young.TMD      # Phong Nguyễn #',
+                        '# Young.TMD      # Hoàng DZ     #',
                         '# Accelerator    # D4lziel.404  #',
 						'# Dat.TTD        # TTH.Thuật    #',
 						'# NoahX          # ROSA         #',
