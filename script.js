@@ -10,7 +10,7 @@ var chinese = "Nam Mô Bổn Sư Thích Ca Mâu Ni Phật";
 //converting the string into an array of single characters
 chinese = chinese.split("");
 
-var font_size = 13;
+var font_size = 15;
 var columns = c.width / font_size; //number of columns for the rain
 //an array of drops - one per column
 var drops = [];
@@ -26,7 +26,7 @@ function draw() {
     ctx.fillStyle = "rgba(0, 0, 0, 0.03)";
     ctx.fillRect(0, 0, c.width, c.height);
 
-    ctx.fillStyle = "#839108"; //green text
+    ctx.fillStyle = "#A8B818"; //green text
     ctx.font = font_size + "px Righteous";
     //looping over drops
     for (var i = 0; i < drops.length; i++) {
