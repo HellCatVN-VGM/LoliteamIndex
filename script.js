@@ -6,7 +6,7 @@ c.height = window.innerHeight;
 c.width = window.innerWidth;
 
 //chinese characters - taken from the unicode charset
-var chinese = "Nam Mô Bổn Sư Thích Ca Mâu Ni Phật";
+var chinese = "LoLiLoLiLoLiLoLiLoLi";
 //converting the string into an array of single characters
 chinese = chinese.split("");
 
@@ -26,7 +26,7 @@ function draw() {
     ctx.fillStyle = "rgba(0, 0, 0, 0.03)";
     ctx.fillRect(0, 0, c.width, c.height);
 
-    ctx.fillStyle = "#A8B818"; //green text
+    ctx.fillStyle = "#52B2E9"; //green text
     ctx.font = font_size + "px Righteous";
     //looping over drops
     for (var i = 0; i < drops.length; i++) {
