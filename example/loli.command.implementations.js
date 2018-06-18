@@ -93,7 +93,7 @@
             command: 'blog',
             description: ['Truy cập vào trang blog của LoLi Team.'],
             handle: function (session) {
-                window.open('http://meomeoilu.blogspot.com/');
+                window.open('https://blog.hellcatvn.com/');
             }
         });
 
