@@ -21,7 +21,7 @@
             handle: function (session) {
                 session.output.push({
                     output: true,
-                    text: ['#Name: LoLi Sec Team', '#Contry: Vietnamese', '#Team Leader: Thương EoPi', '#Team Dev: Hell Cat', '#Home: loliteam.net', '#Blog: meomeoilu.blogspot.com', '#Leader Site: http://hoàithương.vn', '#Dev Site: http://www.hellcatvn.com'],
+                    text: ['#Name: LoLi Sec Team', '#Contry: Vietnamese', '#Team Leader: Thương EoPi', '#Team Dev: Hell Cat', '#Home: loliteam.net', '#Blog: https://blog.hellcatvn.com/', '#Leader Site: http://hoàithương.vn', '#Dev Site: http://www.hellcatvn.com'],
                     breakLine: true
                 });
             }
